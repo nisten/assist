@@ -2,7 +2,7 @@
 
 Computer use for your Mac, by voice. Two models share the work:
 
-- **Laya** (0.4B) is a JEPA-like computer-use model. It doesn't generate text: it reads the screen and picks the next click, scroll or menu item in about 15 ms on a GPU.
+- **Laya** (0.4B) is a "Jev-like" computer-use model. It doesn't generate text: it reads the screen and picks the next click, scroll or menu item in about 15 ms on a GPU.
 - **Bonsai 27B** does what Laya can't generate: it writes, types, answers, and takes the harder steps.
 
 Assist reads the window in front of you as text through macOS's accessibility API, so it needs no screenshots. It speaks its answers, so you don't have to watch it work. It's a single file with no dependencies, and all you need is [Bun](https://bun.sh). (`bonsaiengine.ts`, next to it, is only needed to run Bonsai on your Mac.)
